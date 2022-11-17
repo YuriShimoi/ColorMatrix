@@ -1,0 +1,42 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container,
+#chart {
+    width: 100%;
+    height: 100%;
+}
+
+#image-container {
+    position: fixed;
+    text-align: center;
+    top: 15px;
+    left: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 1px #eee;
+}
+
+#canvas {
+    width: 125px;
+    display: block;
+}
+
+#image-button {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    width: calc(100% - 2px);
+    border-radius: 0;
+    border: 1px solid lightgray;
+    line-height: 30px;
+    cursor: pointer;
+}
+#image-button:hover {
+    background: #eee;
+}
